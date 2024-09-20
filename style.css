@@ -228,6 +228,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
+  overflow-x: hidden;
 }
 
 img {
@@ -2530,6 +2531,7 @@ textarea.w-input, textarea.w-select {
 
   .body {
     overflow: visible;
+    overflow-x: hidden;
   }
 }
 
@@ -2599,8 +2601,4 @@ textarea.w-input, textarea.w-select {
 
 #w-node-_0a911d5f-ad97-715d-6a04-8f256f2f52b9-d1951e86 {
   grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-body {
-    overflow-x: hidden;
 }
